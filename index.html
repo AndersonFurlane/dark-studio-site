@@ -3,41 +3,79 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Dark Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="img/ecosnafogueira.jpg">
 <link rel="stylesheet" href="style.css">
+<title>Dark Studio</title>
+<meta name="description" content="Ferramenta interna de produção e publicação de vídeos dos canais A Última Rodada e Ecos na Fogueira.">
 </head>
 <body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="./"><span class="brand-mark" aria-hidden="true"></span>Dark Studio</a>
+  <nav><a href="./" aria-current="page">Início</a><a href="#canais">Canais</a><a href="privacidade.html">Privacidade</a></nav>
+</div></header>
+
 <main>
-<nav><a href="./">Início</a> · <a href="privacidade.html">Política de Privacidade</a></nav>
-<h1>Dark Studio</h1>
-<p class="sub">Ferramenta interna de produção e publicação de vídeos</p>
+<div class="hero"><div class="wrap">
+  <p class="eyebrow">Estúdio de produção independente</p>
+  <h1>Histórias narradas,<br>produzidas com cuidado.</h1>
+  <p class="lead">O Dark Studio é a ferramenta interna que uso para produzir e publicar os vídeos dos meus próprios canais no YouTube — do roteiro à narração, da trilha ao envio final.</p>
+</div></div>
 
-<p>O Dark Studio é uma ferramenta privada, de linha de comando, desenvolvida e usada exclusivamente por Anderson Furlane Martins para produzir e publicar vídeos nos seus próprios canais do YouTube:</p>
-<ul>
-<li><strong>A Última Rodada</strong> — <a href="https://www.youtube.com/@aultimarodada">youtube.com/@aultimarodada</a></li>
-<li><strong>Ecos na Fogueira</strong> — <a href="https://www.youtube.com/@ecosnafogueira">youtube.com/@ecosnafogueira</a></li>
-</ul>
+<section id="canais"><div class="wrap">
+  <h2>Os canais</h2>
+  <p class="section-sub">Dois canais de narrativa em português, ambos de minha propriedade e operados por mim.</p>
+  <div class="channels">
+    <article class="channel">
+      <img class="channel-banner" src="img/aultimarodada-banner.jpg" alt="" loading="lazy">
+      <div class="channel-body">
+        <div class="channel-head">
+          <img class="avatar" src="img/aultimarodada.jpg" alt="Logo do canal A Última Rodada">
+          <div><h3>A Última Rodada</h3><span class="handle">@aultimarodada</span></div>
+        </div>
+        <p>Duas pessoas, uma mesa de bar e histórias reais que parecem mentira. Acontecimentos históricos, desastres, ciência, tecnologia e decisões humanas contados como uma conversa entre dois amigos depois da meia-noite.</p>
+        <a class="btn" href="https://www.youtube.com/@aultimarodada"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg> Ver no YouTube</a>
+      </div>
+    </article>
+    <article class="channel">
+      <img class="channel-banner" src="img/ecosnafogueira-banner.jpg" alt="" loading="lazy">
+      <div class="channel-body">
+        <div class="channel-head">
+          <img class="avatar" src="img/ecosnafogueira.jpg" alt="Logo do canal Ecos na Fogueira">
+          <div><h3>Ecos na Fogueira</h3><span class="handle">@ecosnafogueira</span></div>
+        </div>
+        <p>Histórias feitas para serem ouvidas. Contos, lendas, mistérios e histórias originais com narração, personagens com vozes próprias, ambientação sonora, trilha e efeitos. Feche os olhos. Acenda a imaginação.</p>
+        <a class="btn" href="https://www.youtube.com/@ecosnafogueira"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg> Ver no YouTube</a>
+      </div>
+    </article>
+  </div>
+</div></section>
 
-<h2>O que a ferramenta faz com a API do YouTube</h2>
-<ul>
-<li>Envia os vídeos produzidos por mim, inicialmente como não listados, para revisão;</li>
-<li>Define miniaturas personalizadas;</li>
-<li>Cria playlists e adiciona os vídeos a elas;</li>
-<li>Atualiza título, descrição, tags e status de privacidade dos vídeos;</li>
-<li>Mantém a identidade visual dos canais (descrição, banner e marca d'água).</li>
-</ul>
+<section><div class="wrap">
+  <h2>Como o Dark Studio usa a API do YouTube</h2>
+  <p class="section-sub">A integração existe para tirar o trabalho repetitivo do YouTube Studio e evitar erros na publicação. Ela atua somente nos dois canais acima.</p>
+  <ul class="features">
+    <li><strong>Envio de vídeos</strong><span>Sobe os episódios produzidos como não listados, para revisão antes da publicação.</span></li>
+    <li><strong>Miniaturas</strong><span>Define a miniatura personalizada de cada episódio.</span></li>
+    <li><strong>Playlists</strong><span>Cria a playlist de cada série e adiciona os episódios em ordem.</span></li>
+    <li><strong>Metadados</strong><span>Mantém título, descrição, tags e status de privacidade atualizados.</span></li>
+    <li><strong>Identidade do canal</strong><span>Aplica descrição, banner e marca d'água padronizados.</span></li>
+    <li><strong>Transparência</strong><span>Sinaliza como conteúdo alterado/sintético os vídeos com voz ou imagem geradas por IA.</span></li>
+  </ul>
+</div></section>
 
-<h2>Quem pode usar</h2>
-<p>Ninguém além do proprietário dos canais. A ferramenta não é oferecida, vendida nem distribuída a terceiros, não tem cadastro de usuários e não possui interface pública. Esta página existe apenas para documentar o uso da API.</p>
-
-<p>Veja a <a href="privacidade.html">Política de Privacidade</a>.</p>
-
-<hr>
-
-<h2 lang="en">English</h2>
-<p lang="en">Dark Studio is a private, internal command-line tool built and used solely by Anderson Furlane Martins to produce and publish videos to his own two YouTube channels listed above. It uses the YouTube Data API to upload his own videos (as unlisted, for review), set custom thumbnails, manage playlists, update video metadata and privacy status, and keep channel branding consistent. It has no other users and is not offered, sold or distributed to anyone. See the <a href="privacidade.html#en">Privacy Policy</a>.</p>
-
-<footer>Contato: <a href="mailto:andersonfurlanemartins@gmail.com">andersonfurlanemartins@gmail.com</a></footer>
+<section><div class="wrap note">
+  <div><h3>Uso exclusivo</h3><p>Ferramenta privada, sem cadastro de usuários e sem interface pública. Não é oferecida, vendida nem distribuída a terceiros.</p></div>
+  <div><h3>Dados mínimos</h3><p>Acessa apenas os dados dos próprios canais. As credenciais ficam somente no meu computador. Veja a <a href="privacidade.html">Política de Privacidade</a>.</p></div>
+  <div lang="en"><h3>In English</h3><p>Dark Studio is a private, internal tool used solely by the owner of the two channels above to produce and publish his own videos via the YouTube Data API. It has no other users. See the <a href="privacidade.html#en">Privacy Policy</a>.</p></div>
+</div></section>
 </main>
+
+<footer><div class="wrap">
+  <span>© 2026 Anderson Furlane Martins · Dark Studio</span>
+  <span><a href="privacidade.html">Política de Privacidade</a> · <a href="mailto:andersonfurlanemartins@gmail.com">Contato</a></span>
+</div></footer>
 </body>
 </html>
